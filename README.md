@@ -1,1 +1,1 @@
-# TelerikAcademyyyyyyyyyyy
+# TelerikAcademy
