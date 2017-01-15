@@ -71,7 +71,7 @@ namespace Dealership.Models
             set
             {          
                 Validator.ValidateDecimalRange(value, Constants.MinPrice, Constants.MaxPrice,
-                    String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(Price), Constants.MinPrice, Constants.MaxPrice));
+                    String.Format(Constants.NumberMustBeBetweenMinAndMax, nameof(Price), Constants.MinPrice, Constants.MaxPrice));
 
                 this.price = value;
             }
