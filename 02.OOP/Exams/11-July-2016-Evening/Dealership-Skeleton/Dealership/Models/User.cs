@@ -37,7 +37,7 @@ namespace Dealership.Models
             {
                 Validator.ValidateNull(value, Constants.UserCannotBeNull);
                 Validator.ValidateIntRange(value.Length, Constants.MinNameLength, Constants.MaxNameLength,
-                    String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(FirstName),
+                    String.Format(Constants.StringMustBeBetweenMinAndMax, "Firstname",
                     Constants.MinNameLength, Constants.MaxNameLength));
 
                 this.firstName = value;
@@ -54,7 +54,7 @@ namespace Dealership.Models
             {
                 Validator.ValidateNull(value, Constants.UserCannotBeNull);
                 Validator.ValidateIntRange(value.Length, Constants.MinNameLength, Constants.MaxNameLength,
-                    String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(LastName),
+                    String.Format(Constants.StringMustBeBetweenMinAndMax, "Lastname",
                     Constants.MinNameLength, Constants.MaxNameLength));
 
                 this.lastName = value;

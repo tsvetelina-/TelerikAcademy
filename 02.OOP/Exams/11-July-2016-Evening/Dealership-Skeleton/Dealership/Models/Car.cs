@@ -28,9 +28,9 @@ namespace Dealership.Models
             }
             set
             {
-                Validator.ValidateIntRange(value, Constants.MinWheels, Constants.MaxWheels,
-                    String.Format(Constants.NumberMustBeBetweenMinAndMax, nameof(Wheels),
-                    Constants.MinWheels, Constants.MaxWheels));
+                Validator.ValidateIntRange(value, Constants.MinSeats,Constants.MaxSeats,
+                    String.Format(Constants.NumberMustBeBetweenMinAndMax, nameof(Seats),
+                    Constants.MinSeats, Constants.MaxSeats));
 
                 this.seats = value;
             }

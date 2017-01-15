@@ -29,7 +29,7 @@ namespace Dealership.Models
             set
             {
                 Validator.ValidateIntRange(value, Constants.MinCapacity, Constants.MaxCapacity,
-                    String.Format(Constants.NumberMustBeBetweenMinAndMax, nameof(WeightCapacity),
+                    String.Format(Constants.NumberMustBeBetweenMinAndMax, "Weight-capacity",
                     Constants.MinCapacity, Constants.MaxCapacity));
 
                 this.weightCapacity = value;
