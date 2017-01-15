@@ -71,7 +71,7 @@ namespace Dealership.Models
             {
                 Validator.ValidateNull(value, Constants.UserCannotBeNull);
                 Validator.ValidateIntRange(value.Length, Constants.MinPasswordLength, Constants.MaxPasswordLength,
-                   String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(LastName),
+                   String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(Password),
                     Constants.MinPasswordLength, Constants.MaxPasswordLength));
                 Validator.ValidateSymbols(value, Constants.PasswordPattern,
                     String.Format(Constants.InvalidSymbols, nameof(Password)));
@@ -92,7 +92,7 @@ namespace Dealership.Models
             {
                 Validator.ValidateNull(value, Constants.UserCannotBeNull);
                 Validator.ValidateIntRange(value.Length, Constants.MinNameLength, Constants.MaxNameLength,
-                   String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(LastName),
+                   String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(Username),
                    Constants.MinNameLength, Constants.MaxNameLength));
                 Validator.ValidateSymbols(value, Constants.UsernamePattern,
                     String.Format(Constants.InvalidSymbols, nameof(Username)));

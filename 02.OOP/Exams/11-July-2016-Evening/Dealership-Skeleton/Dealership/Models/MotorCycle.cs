@@ -29,7 +29,7 @@ namespace Dealership.Models
             set
             {
                 Validator.ValidateIntRange(value.Length, Constants.MinCategoryLength, Constants.MaxCategoryLength,
-                    String.Format(Constants.NumberMustBeBetweenMinAndMax, nameof(Category),
+                    String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(Category),
                     Constants.MinCategoryLength, Constants.MaxCategoryLength));
 
                 this.category = value;

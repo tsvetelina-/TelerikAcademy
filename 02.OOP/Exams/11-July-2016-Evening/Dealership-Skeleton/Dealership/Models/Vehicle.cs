@@ -88,7 +88,7 @@ namespace Dealership.Models
             set
             {
                 Validator.ValidateIntRange(value, Constants.MinWheels, Constants.MaxWheels,
-                    String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(Model), Constants.MinWheels, Constants.MaxWheels));
+                    String.Format(Constants.StringMustBeBetweenMinAndMax, nameof(Wheels), Constants.MinWheels, Constants.MaxWheels));
 
                 this.wheels = value;
             }
