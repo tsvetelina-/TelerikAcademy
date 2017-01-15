@@ -18,6 +18,7 @@ namespace Dealership.Models
         {
             base.Wheels = (int)VehicleType.Car;
             this.Seats = seats;
+            base.Type = VehicleType.Car;
         }
 
         public int Seats
@@ -34,6 +35,17 @@ namespace Dealership.Models
 
                 this.seats = value;
             }
+        }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+
+            sb.Append(base.ToString());
+
+            sb.Append(String.Format("  Seats: {0}", this.Seats));
+
+            return sb.ToString();
         }
 
     }

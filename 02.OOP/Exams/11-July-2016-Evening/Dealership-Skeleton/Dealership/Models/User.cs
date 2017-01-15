@@ -124,9 +124,14 @@ namespace Dealership.Models
                     }
                     else
                     {
-                        throw new ArgumentException(String.Format(Constants.NotAnVipUserVehiclesAdd, Constants.NotAnVipUserVehiclesAdd));
+                        throw new ArgumentException(String.Format(Constants.NotAnVipUserVehiclesAdd, Constants.MaxVehiclesToAdd));
                     }
                 }
+                else
+                {
+                    Vehicles.Add(vehicle);
+                }
+
             }
             else
             {
@@ -144,11 +149,11 @@ namespace Dealership.Models
             foreach (var vehicle in Vehicles)
             {
                 counter += 1;
-                sb.AppendLine(String.Format("{0}. {1}:", counter, nameof(vehicle)));
-                sb.AppendLine(vehicle.ToString());
+                sb.AppendLine(String.Format("{0}. {1}:", counter, vehicle.Type));
+                sb.Append(vehicle.ToString());               
             }
 
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
 
         public void RemoveComment(IComment commentToRemove, IVehicle vehicleToRemoveComment)

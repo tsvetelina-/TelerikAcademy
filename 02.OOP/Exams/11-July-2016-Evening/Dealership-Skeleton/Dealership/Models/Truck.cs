@@ -18,6 +18,7 @@ namespace Dealership.Models
         {
             base.Wheels = (int)VehicleType.Truck;
             this.WeightCapacity = weightCapacity;
+            base.Type = VehicleType.Truck;
         }
 
         public int WeightCapacity
@@ -29,12 +30,24 @@ namespace Dealership.Models
             set
             {
                 Validator.ValidateIntRange(value, Constants.MinCapacity, Constants.MaxCapacity,
-                    String.Format(Constants.NumberMustBeBetweenMinAndMax, "Weight-capacity",
+                    String.Format(Constants.NumberMustBeBetweenMinAndMax, "Weight capacity",
                     Constants.MinCapacity, Constants.MaxCapacity));
 
                 this.weightCapacity = value;
             }
         }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+
+            sb.Append(base.ToString());
+
+            sb.Append(String.Format("  Weight Capacity: {0}t", this.WeightCapacity));
+
+            return sb.ToString();
+        }
+
 
     }
 }

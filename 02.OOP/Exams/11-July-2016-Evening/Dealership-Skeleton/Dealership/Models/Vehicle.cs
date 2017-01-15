@@ -93,6 +93,18 @@ namespace Dealership.Models
                 this.wheels = value;
             }
         }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+
+            sb.AppendLine(String.Format("  Make: {0}",this.Make));
+            sb.AppendLine(String.Format("  Model: {0}", this.Model));
+            sb.AppendLine(String.Format("  Wheels: {0}", this.Wheels));
+            sb.AppendLine(String.Format("  Price: ${0}", this.Price));
+
+            return sb.ToString();
+        }
     }
 }
 

@@ -18,6 +18,7 @@ namespace Dealership.Models
         {
             base.Wheels = (int)VehicleType.Motorcycle;
             this.Category = category;
+            base.Type = VehicleType.Motorcycle;
         }
 
         public string Category
@@ -35,5 +36,17 @@ namespace Dealership.Models
                 this.category = value;
             }
         }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+
+            sb.Append(base.ToString());
+
+            sb.Append(String.Format("  Category: {0}", this.Category));
+
+            return sb.ToString();
+        }
+
     }
 }

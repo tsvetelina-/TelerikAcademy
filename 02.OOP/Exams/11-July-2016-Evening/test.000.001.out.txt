@@ -34,8 +34,6 @@ You are not VIP and cannot add more than 5 vehicles!
 ####################
 You are not VIP and cannot add more than 5 vehicles!
 ####################
-Content must be between 3 and 200 characters long!
-####################
 pesho added comment successfully!
 ####################
 You are not an admin!
