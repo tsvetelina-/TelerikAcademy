@@ -150,7 +150,7 @@ namespace Dealership.Models
             {
                 counter += 1;
                 sb.AppendLine(String.Format("{0}. {1}:", counter, vehicle.Type));
-                sb.Append(vehicle.ToString());               
+                sb.AppendLine(vehicle.ToString());               
             }
 
             return sb.ToString().TrimEnd();

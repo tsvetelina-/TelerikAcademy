@@ -45,7 +45,7 @@ namespace Dealership.Models
 
             sb.Append(String.Format("  Category: {0}", this.Category));
 
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
 
     }

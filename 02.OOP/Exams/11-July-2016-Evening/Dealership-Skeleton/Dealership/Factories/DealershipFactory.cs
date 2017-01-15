@@ -46,7 +46,7 @@ namespace Dealership.Factories
 
         public IComment CreateComment(string content)
         {
-            return null;
+            return new Comment(content);
         }
     }
 }

@@ -45,7 +45,7 @@ namespace Dealership.Models
 
             sb.Append(String.Format("  Seats: {0}", this.Seats));
 
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
 
     }

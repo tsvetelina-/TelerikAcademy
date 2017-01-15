@@ -45,7 +45,7 @@ namespace Dealership.Models
 
             sb.Append(String.Format("  Weight Capacity: {0}t", this.WeightCapacity));
 
-            return sb.ToString();
+            return sb.ToString().TrimEnd();
         }
 
 

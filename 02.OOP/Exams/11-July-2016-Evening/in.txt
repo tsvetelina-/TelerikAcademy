@@ -16,7 +16,6 @@ AddVehicle Motorcycle Suzuki V-Strom 7500 CityEnduro
 AddVehicle Car BMW Z3 11200 2
 AddVehicle Car BMW Z3 11200 2
 AddVehicle Car BMW Z3 11200 2
-AddComment {{U}} pesho 1
 AddComment {{Unikalen motor pichove}} pesho 1
 ShowUsers
 RegisterUser pesho Petar Petrov 123457
