@@ -29,7 +29,7 @@ namespace ArmyOfCreatures.Extended.Specialties
 
         public override void ApplyOnSkip(ICreaturesInBattle skipCreature)
         {
-            skipCreature.CurrentAttack += 10;
+            skipCreature.PermanentAttack += valueToAddToPermaAttack;
         }
 
         public override string ToString()

@@ -22,18 +22,32 @@
 
             this.rounds = rounds;
         }
-        public override decimal ChangeDamageWhenAttacking(decimal currentDamage)
-        {          
-            if (this.rounds <= 0)
+
+
+        public override decimal ChangeDamageWhenAttacking(
+        ICreaturesInBattle attackerWithSpecialty,
+        ICreaturesInBattle defender,
+        decimal currentDamage)
+        {
+            if (attackerWithSpecialty == null)
             {
-                // Effect expires after fixed number of rounds
-                return currentDamage;
+                throw new ArgumentNullException("attackerWithSpecialty");
             }
 
-            this.rounds--;
-            
-            return currentDamage * 2;
+            if (defender == null)
+            {
+                throw new ArgumentNullException("defender");
+            }
+
+            if (this.rounds > 0)
+            {
+                this.rounds--;
+                return currentDamage * 2;
+            }
+
+            return currentDamage;
         }
+
 
         public override string ToString()
         {
