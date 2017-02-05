@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+table {
+    border-top: 1px solid #BBB99D;
+    border-bottom: 1px solid #BBB99D;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th {
+    font-weight: normal;
+    height: 10px;
+    color: white;
+    text-align: left;
+    border: 1px solid #BBB99D;
+}
+
+.head {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,5cc006+99,72aa00+99,9ecb2d+100 */
+    background: rgb(191, 210, 85);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(191, 210, 85, 1) 0%, rgba(92, 192, 6, 1) 99%, rgba(114, 170, 0, 1) 99%, rgba(158, 203, 45, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(191, 210, 85, 1) 0%, rgba(92, 192, 6, 1) 99%, rgba(114, 170, 0, 1) 99%, rgba(158, 203, 45, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(191, 210, 85, 1) 0%, rgba(92, 192, 6, 1) 99%, rgba(114, 170, 0, 1) 99%, rgba(158, 203, 45, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d', GradientType=0);
+    /* IE6-9 */
+}
+
+tr:nth-child(odd) {
+    background-color: #ECECD8;
+}
+
+table td, th {
+    border-left: 1px solid #BBB99D;
+    padding: 3px;
+}
+
+table th, td:nth-child(1), table th:nth-child(5) {
+    border-left: none;
+}
+
+#checkbox {
+    padding-left: 10px;
+}
+
+.head th:last-child {
+    border-right: none
+}
+
+img {
+    padding-left: 3px;
+    padding-right: 5px;
+    position: relative;
+    top: 3px;
+}
