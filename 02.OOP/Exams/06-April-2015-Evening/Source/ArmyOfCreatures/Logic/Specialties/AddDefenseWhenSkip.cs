@@ -31,7 +31,8 @@
 
         public override string ToString()
         {
-            return string.Format(CultureInfo.InvariantCulture, "{0}({1})", base.ToString(), this.defenseToAdd);
+            return string.Format(CultureInfo.InvariantCulture, "{0}({1})",
+                base.ToString(), this.defenseToAdd);
         }
     }
 }

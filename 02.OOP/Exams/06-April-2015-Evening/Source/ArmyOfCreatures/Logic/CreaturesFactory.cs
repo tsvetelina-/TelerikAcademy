@@ -23,7 +23,9 @@
                     return new Devil();
                 default:
                     throw new ArgumentException(
-                        string.Format(CultureInfo.InvariantCulture, "Invalid creature type \"{0}\"!", name));
+                        string.Format(CultureInfo.InvariantCulture,
+                        "Invalid creature type \"{0}\"!",
+                        name));
             }
         }
     }

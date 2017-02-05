@@ -37,7 +37,8 @@
 
         public override string ToString()
         {
-            return string.Format(CultureInfo.InvariantCulture, "{0}({1})", base.ToString(), this.Percentage);
+            return string.Format(CultureInfo.InvariantCulture, "{0}({1})",
+                base.ToString(), this.Percentage);
         }
     }
 }
