@@ -42,4 +42,4 @@ function solve(args) {
 
     return result;
 }
-solve(['567']);
+solve(['729']);
