@@ -1,0 +1,33 @@
+
+-------
+
+1.header
+2.platforms
+3.features
+4.responsive
+5.co-founder
+6.awesome-features
+7.footer
+
+
+--------------
+-added all the remaining sections 
+
+TO DO:
+-when modal button is closed stop playing the youtube video
+-changе font-size
+
+------------
+
+What I have done 9.1.2018:
+-when modal button is closed the youtube video stops
+-changed some font-sizes and font-weight
+-changed the size of some buttons
+-added padding and margin values and border-radius
+-removed the blue styling of telephone numbers on iPhone/iOS
+-removed the border-bottom of the input type text that appears only on iOS devices
+
+
+-phone number on iPhone appears blue
+-get newsletter border-bottom -> 2px
+-border-radius is shown only on iphone and ipad -> designers section -> form-group -> input type = text
