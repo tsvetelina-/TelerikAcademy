@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+.container{
+	width: 926px;
+	height: 207px;
+	background-color: #ebebeb;
+	padding: 15px;
+	font-family: Arial;
+}
+
+h2{
+	color: #e57816;
+	font-size: 24px;
+	font-weight: bold;
+}
+h3
+h4
+p
+
+section article p{
+	color: #595959;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+footer p{
+	color: #595959;
+	font-size: 12px;
+	position: absolute;
+}
+
+footer span{
+	text-decoration: underline;
+}
+
+.box{
+	visibility: hidden;
+}

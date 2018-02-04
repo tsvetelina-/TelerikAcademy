@@ -1,0 +1,266 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+.wrapper{
+	margin: auto;
+	width: 960px;
+	font-family: Arial;
+}
+
+h2{
+	font-size: 24px;
+	color: #f2cf19;
+	padding-bottom: 18px;
+}
+
+p{
+	font-size: 12px;
+	color: #595959;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+
+.box{
+	background-color: #ebebeb;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	padding: 14px 19px 30px 16px;
+	overflow: hidden;
+}
+
+/*.box img{
+	padding-right: 18px;
+}*/
+
+small{
+	font-size: 10px;
+	color: #595959;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+small i{
+	display: block;
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+.img-left{
+	float: left;
+}
+
+.img-left img{
+	display: block;
+	float: none;
+}
+
+ul{
+	list-style-type: none;
+	padding-bottom: 40px;
+}
+
+li{
+	display: inline-block;
+}
+
+.img-right{
+	float: right;
+}
+
+.box .img-left{
+	margin-right: 20px;
+}
+/* END GLOBAL */
+
+/* BOX 3 */
+.box.box3 h2{
+	padding-bottom: 10px;
+}
+
+.box.box3 p{
+	padding-bottom: 30px;
+	overflow: hidden; /*!!!!!*/
+}
+
+.box.box3 .inner-box{
+	overflow: hidden;
+}
+/* END BOX 3*/
+
+/*BOX 4*/
+.box.box4 .img-right{
+	padding-top: 63px;
+}
+
+.box.box4{
+	padding-bottom: 100px;
+}
+
+.box.box4 p{
+	overflow: hidden;
+}
+/*END BOX 4*/
+
+/*BOX 5*/
+.box.box5 p{
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.box.box5{
+	padding-bottom: 150px;
+}
+
+.box.box5 .img-left img{
+	display: block;
+	float: none;
+	padding-bottom: 10px;
+}
+
+.box.box5 .inner-box{
+	padding-left: 20px;
+}
+/*END BOX 5*/
+
+/*BOX 6*/
+.box.box6 .inner-box{
+	overflow: hidden;
+}
+
+.box.box6 p{
+	padding-bottom: 15px;
+	padding-right: 50px;
+	width: 757px;
+}
+
+.box.box6 .img-left img{
+	display: block;
+	float: none;
+	padding-bottom: 10px;
+}
+
+.box.box6 ul{
+	padding-bottom: 30px;
+}
+
+.box.box6 li{
+	padding-right: 20px;
+}
+/*END BOX 6*/
+
+/*BOX 7*/
+.box.box7{
+	padding-bottom: 86px;
+}
+
+.box.box7 p{
+	overflow: hidden;
+	padding-right: 50px;
+}
+
+.box.box7 .img-left img{
+	display: block;
+	float: none;
+	padding-bottom: 10px;
+}
+
+.box.box7 .img-left{
+	overflow: hidden;
+}
+
+.box.box7 .right-side{
+	width: 805px;
+}
+
+small i{
+	display: block;
+	padding-top: 25px;
+	font-size: 12px;
+}
+
+.box.box7 .logo-and-text{
+	padding-top: 20px;
+}
+
+div.logo-and-text {
+	float: left;
+    /*vertical-align: top;
+    display: inline-block;*/
+    text-align: center;
+    width: 277px;
+    margin-left: 120px;
+}
+
+.big-logo-and-text-under-it{
+	margin-right: 20px;
+}
+
+.box.box7 .right-side-text{
+	width: 756px;
+	padding-left: 30px;
+	text-align: left;
+}
+/**********************/
+
+/*BOX 8*/
+.box.box8 .img-left img{
+	display: block;
+	float: none;
+	padding-bottom: 10px;
+}
+
+.box.box8 .inner-box{
+	width: 805px;
+	float:left;
+}
+
+.box.box8 .float-right img{
+	padding-left: 20px;
+}
+
+.box.box8 small u{
+	color: black;
+	font-size: 12px;
+}
+
+.list-of-logos{
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+div.big-logo-and-text-under-it {
+	float: left;
+    /*vertical-align: top;
+    display: inline-block;*/
+    text-align: center;
+    width: 277px;
+}
+
+.text-under-logo {
+    display: inline-block;
+	padding-top: 10px;
+}
+
+.list-of-logos{
+	overflow: hidden;
+	padding-left: 40px;
+}
+.list-of-logos li{
+	float:left;
+	text-align:center;
+	padding-right: 50px;
+}
+.list-of-logos li img{
+	display: block;
+	margin-bottom: 10px;
+	padding-right: 0;
+	float: none;
+}
+.list-of-logos li small{
+	display: block;
+}
+/*END BOX 8*/
