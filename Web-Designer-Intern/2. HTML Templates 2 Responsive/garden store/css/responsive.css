@@ -1,0 +1,145 @@
+@media (max-width: 1050px) {
+	.wrapper{
+		width: 750px;
+	}
+	aside{
+		width: 25%;
+	}
+	.content{
+		width: 73%;
+	}
+	.content .products li{
+		padding-right: 7%;
+	}
+	.content .products li:nth-child(3n+3){
+		padding-right: 0;
+	}
+	.content .products li:nth-child(4n+4){
+		padding-right: 
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapper{
+		width: auto;
+	}
+	header{
+		text-align: center;
+		/*background-size: 100% 100%;*/
+		background: none;
+		background-color: #fefefe;
+	}
+	.right-header{
+		float: none;
+		margin-top: 0;
+		text-align: left;
+	}
+	.right-header form{
+		float: none;
+		margin: 0 5px;
+		background-color: #fff;
+		text-align: center;
+		/*border: 1px solid #C4C4C4;*/
+	}
+	.right-header input[type="text"]{
+		text-align: left;
+		border: none;
+		border: 1px solid #C4C4C4;
+		width: 88%;
+	}
+	.right-header ul{
+		margin-bottom: 1%;
+		text-align: center;
+		margin: 0 0 1% 0;
+	}
+	aside{
+		float: none;
+		width: auto;
+		overflow: hidden;
+	}
+	aside .box{
+		float: left;
+		width: 32%;
+	}
+	aside .box img{
+		width: auto;
+	}
+	aside .box h3{
+		background: none;
+	}
+	.content{
+		float: none;
+		width: auto;
+		margin-left: 0;
+	}
+	.content .products{
+		text-align: center;
+	}
+	.content .products li{
+		width: 33%;
+		padding-right: 0%;
+	}
+	ul.breadcrumb, .content span{
+		margin-left: 15px;
+	}
+	.logo{
+		margin: 10px 0 0 0;
+		float: none;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 680px) {
+	.wrapper{
+		width: auto;
+	}
+	.content{
+		float: none;
+	}
+	.content .products li{
+		width: 50%;
+	}
+	aside{
+		width: auto;
+		float: none;
+	}
+	aside .box{
+		width: auto;
+		float: none;
+		margin: 10px;
+	}
+	nav{
+		padding: 0;
+	}
+	nav li{
+		float: left;
+		clear: left;
+		width: 100%;
+		text-align: center;
+		padding: 11px 0;
+	}
+	nav li:first-child{
+		padding-left: 0px;
+	}
+	.right-header input[type="text"]{
+		width: 85%; /79
+	}
+}
+
+@media (max-width: 450px) {
+	.wrapper{
+		width: auto;
+	}
+	.content .products li{
+		width: 100%;
+	}
+	.content .breadcrumb li{
+		font-size: 95%;
+	}
+	.content span{
+		font-size: 75%;
+	}
+	.right-header form input[type="text"]{
+		width: 79%;
+	}
+}

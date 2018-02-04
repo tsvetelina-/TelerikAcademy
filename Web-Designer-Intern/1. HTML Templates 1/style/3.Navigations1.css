@@ -1,0 +1,39 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+/*END GLOBAL*/
+
+.container{
+	font-family: Arial;
+	font-size: 14px;
+	background-color: #00939a;
+	width: 900px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	padding: 23px 0px 30px 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+a:hover{
+	color: #2fbec0;
+}
+
+.home{
+	color: #595959;
+}

@@ -1,0 +1,124 @@
+@media (max-width: 1050px) {
+    .wrapper {
+        width: 750px;
+    }
+    aside {
+        width: 23%;
+    }
+    .content {
+        width: 73%;
+    }
+    .content .products li {
+        width: 33%;
+        padding-right: 0;
+    }
+    .content .products li img {
+        width: auto;
+    }
+}
+ 
+@media (max-width: 767px) {
+    .wrapper {
+        width: auto;
+    }
+    header {
+        text-align: center;
+    }
+    header .logo {
+        margin: 45px 0px 0px 0px;
+    }
+    aside {
+        float: none;
+        width: auto;
+        overflow: hidden;
+        margin: 0 1%;
+    }
+    aside .box {
+        float: left;
+        width: 32%;
+        margin-right: 1%;
+    }
+    aside .box img {
+        width: auto;
+    }
+    aside .box:first-child{
+        margin-top: 8px;
+    }
+    .content {
+        width: auto;
+        padding: 0;
+        float: none;
+    }
+    .right-header {
+        float: none;
+        text-align: left;
+    }
+    .right-header form {
+        float: none;
+        background-color: #fff;
+        margin: 1%;
+    }
+    .right-header ul {
+        padding: 10px 10px;
+        text-align: center;
+    }
+    header .right-header form input[type="text"] {
+        text-align: left;
+        border: none;
+        padding: 3px 2px 3px 6px;
+    }
+    .content .breadcrumb {
+        padding-top: 10px;
+    }
+    .content .breadcrumb,
+    .content .displaying-products {
+        padding-left: 20px;
+    }
+}
+ 
+@media (max-width: 680px) {
+    .wrapper {
+        width: auto;
+    }
+    aside .box {
+        width: auto;
+        float: none;
+        margin-right: 0;
+    }
+    .content .products li {
+        width: 50%;
+    }
+    nav {
+        width: auto;
+        margin: 0 1% 1% 1%;
+    }
+    nav li {
+        float: none;
+        clear: left;
+        width: auto;
+        text-align: center;
+    }
+    .content img {
+        width: auto;
+    }
+}
+ 
+@media (max-width: 450px) {
+    .wrapper {
+        width: auto;
+    }
+    .content .products li {
+        width: auto;
+        float: none;
+    }
+    .content .breadcrumb li,
+    .content .breadcrumb li a {
+        font-size: 95%;
+    }
+    .content .displaying-products {
+        font-size: 75%;
+    }
+    header .logo img{
+        width: 100%;
+    }
+}

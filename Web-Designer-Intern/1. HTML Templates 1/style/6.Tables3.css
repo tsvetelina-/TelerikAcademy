@@ -1,0 +1,128 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+/* END GLOBAL */
+
+.container{
+	width: 719px;
+	height: 323px;
+	font-family: Arial;
+	color: #626262;
+	font-size: 14px;
+}
+
+table{
+	border-collapse: collapse;
+	background-color: #e6e6e6;
+}
+
+table, td, th{
+	border: 1px solid black;
+}
+
+th{
+	color: #626262;
+	font-size: 14px;
+	text-align: left;
+	background-color: #c2c2c2;
+	height: 37px;
+	padding-left: 22px;
+}
+
+.third-line{
+	background-color: #a1a1a1;
+	color: #626262;
+	padding: 17px 0px 20px 20px;
+}
+
+.bold-text{
+	font-weight: bold;
+	color: #626262;
+	width: 146px;
+	height: 64px;
+	text-align: center;
+}
+
+.nested-table{
+	width: 280px;
+	height: 150px;
+	text-align: center;
+}
+
+.nine{
+	background-color: black;
+	color: white;
+}
+
+.leftColumn{
+	wid th: 442px;
+	heig ht: 151px;
+	padding-left: 21px;
+	padding-right: 37px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.white{
+	background-color: #ffffff;
+}
+
+.third-line p{
+	margin-left: 21px;
+	margin-right: 119px;
+}
+
+.last-paragraph{
+	padding-left: 28px;
+	word-break: keep-all;
+	padding-top: 5px;
+	width: 425px;
+	word-break: keep-all;
+}
+
+td strong{
+	padding: 28px 31px 27px 28px;
+}
+
+.last-td{
+	padding: 17px 0px 17px 19px;
+}
+
+/********************************************/
+
+    .nested-table {
+        border-collapse: separate;
+        border-spacing: 0;
+        min-width: 350px;
+        
+    }
+    .nested-table tr th,
+    .nested-table tr td {
+        border-right: 1px solid #bbb;
+        border-bottom: 1px solid #bbb;
+        padding: 5px;
+    }
+    .nested-table tr th:first-child, .nested-table tr th:last-child{
+    border-top:solid 1px      #bbb;}
+    .nested-table tr th:first-child,
+    .nested-table tr td:first-child {
+        border-left: 1px solid #bbb;
+        
+    }
+    .nested-table tr th:first-child,
+    .nested-table tr td:first-child {
+        border-left: 1px solid #bbb;
+    }
+    .nested-table tr th {
+        background: #eee;
+        text-align: left;
+    }
+    
+    .nested-table tr th,
+    .nested-table tr:first-child td
+    {
+        border-top: 1px solid #bbb;
+    }

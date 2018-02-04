@@ -1,0 +1,83 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+/* END GLOBAL */
+
+.container{
+	width: 638px;
+	/*height: 412px;*/
+	background-color: #e7e7e7;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+form{
+	padding: 72px 70px 135px 80px;
+}
+
+div{
+	padding-bottom: 40px;
+}
+
+span{
+	color: #ff8977;
+}
+
+.yellow-background{
+	background-color: #fff799;
+	border-radius: 10px;
+}
+
+.light-yellow-background{
+	background-color: #fcf9d2;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+label{
+	width: 150px;
+	/*float: left;*/
+	text-align: right;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+input[type="text"],
+input[type="password"]{
+	width: 240px;
+	height: 35px;
+	border: 1px solid black;
+	-moz-box-shadow:    inset 2px 2px 6px #969696;
+	-webkit-box-shadow: inset 2px 2px 6px #969696;
+	box-shadow:         inset 2px 2px 6px #969696;
+	margin-left: 46px;
+	padding-left: 10px;
+}
+
+select{
+	width: 77px;
+	margin-left: 46px;
+}
+
+.buttons{
+	font-size: 12px;
+	display: inline;
+	float: right;
+}
+
+input[type="password"]{
+	margin-bottom: 26px;
+}
+
+input[type="submit"]{
+	background-color: #65b9d9;
+	width: 90px;
+	height: 23px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}

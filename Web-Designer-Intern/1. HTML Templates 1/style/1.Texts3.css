@@ -1,0 +1,32 @@
+.container{
+	width: 926px;
+	height: 395px;
+	background-color: #ebebeb;
+	padding: 15px 15px 0px 15px;
+	font-family: Arial;
+}
+
+h2{
+	color: #e57816;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+section article p{
+	color: #595959;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+h3{
+	color: #0cccaa;
+	font-size: 18px;
+}
+
+h4{
+	color: #0b547d;
+}
+
+span{
+	text-decoration: underline;
+}
