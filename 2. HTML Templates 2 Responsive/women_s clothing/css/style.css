@@ -1,0 +1,302 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	font-family: Arial;
+	border-radius: 5px;
+}
+
+body{
+	background: url("../img/body-background.png");
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+/* HEADER */
+.logo{
+	margin: 45px 0px 35px 5px;
+	display: inline-block;
+}
+
+.right-header{
+	float: right;
+}
+
+.right-header li{
+	/*float: left;*/
+	display: inline-block;
+	padding-right: 18px;
+}
+
+.right-header li:last-child{
+	padding-right: 0;
+}
+
+.right-header a{
+	font-size: 13px;
+	color: #fff;
+}
+
+.right-header a:hover{
+	text-decoration: underline;
+}
+
+.right-header ul{
+	margin: 22px 0px 19px 0px;
+}
+
+.right-header form{
+	position: relative;
+	float: right;
+	border: 10px solid #000;
+	border-width: 10px 44px 10px 10px;
+	border-radius: 10px;
+}
+
+.right-header input[type="text"]{
+	padding: 2px 2px 2px 6px;
+	width: 141px;
+}
+
+.right-header input[type="text"]::placeholder{
+	color: #bdbdbd;
+	font-size: 13px;
+}
+
+.right-header input[type="submit"]{
+	cursor: pointer;
+	background-color: #e6006b;
+	border: none;
+	padding: 4px 8px;
+	font-size: 13px;
+	color: #fff;
+	border-radius: 5px;
+	position: absolute;
+	right: -36px;
+}
+/* END HEADER */
+
+/* NAVIGATION */
+nav{
+	background-color: #000;
+	border-radius: 10px;
+	border-bottom: 10px solid #e0016c;
+	margin-bottom: 10px;
+}
+
+nav li{
+	float: left;
+	padding: 14px 17px;
+}
+
+nav a{
+	color: #ffffff;
+	font-size: 15px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+/* END NAVIGATION */
+
+/* ASIDE */
+aside{
+	float: left;
+	width: 217px;
+}
+
+aside .box{
+	background-color: #d9d9d9;
+	margin: 8px 8px 8px 0;
+	border-radius: 10px;
+}
+
+aside .box:first-child{
+	margin-top: 0;
+}
+
+.box h3{
+	color: #fff;
+	background-color: #e2006b;
+	font-size: 16px;
+	padding: 14px 5px 14px 12px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.box ul{
+	padding: 10px 10px 0px 20px;
+}
+
+.box li{
+	padding-bottom: 8px;
+}
+
+.box a{
+	font-size: 14px;
+	color: #2e2e2e;
+}
+
+.featured-products{
+	text-align: center;
+	font-size: 13px;
+}
+
+.featured-products h3{
+	text-align: left;
+	margin-bottom: 24px;
+}
+
+.featured-products img{
+	margin-bottom: 9px;
+}
+
+.featured-products h4{
+	margin-bottom: 10px;
+	color: #e2006b;
+}
+
+.featured-products p{
+	margin-bottom: 10px;
+}
+
+.featured-products .add-to-cart{
+	margin-bottom: 20px;
+}
+
+.featured-products .add-to-cart a{
+	display: inline-block;
+	padding: 5px;
+	background-color: #e2006b;
+	font-size: 13px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.featured-products a.view-all{
+	margin-bottom: 14px;
+	display: inline-block;
+	color: #e2006b;
+	font-size: 12px;
+}
+
+.featured-products a.view-all:hover{
+	text-decoration: underline;
+}
+/* END ASIDE */
+
+/* BREADCRUMB */
+ul.breadcrumb{
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+ul.breadcrumb li{
+	display: inline;
+	color: #e2006b;
+	font-size: 18px;
+}
+
+ul.breadcrumb li+li:before{
+	padding: 5px 5px 0px 5px;
+	content: ">";
+}
+
+ul.breadcrumb li a{
+	color: #e2006b;
+	font-size: 18px;
+}
+
+ul.breadcrumb li a:hover{
+	text-decoration: underline;
+}
+/* END BREADCRUMB */
+
+/* SPAN */
+.content .displaying-products{
+	font-size: 13px;
+	color: #858585;
+	display: inline-block;
+	margin-bottom: 29px;
+}
+/* END SPAN */
+
+/* CONTENT */
+.content{
+	float: left;
+	width: 719px;
+	background-color: #fff;
+	padding: 0px 12px 0px 12px;
+	border-radius: 15px;
+}
+
+.products{
+	font-size: 13px;
+}
+
+.products li{
+	float: left;
+	text-align: center;
+	padding-right: 12px;
+	padding-bottom: 28px;
+}
+
+.products li:nth-child(4n+4){
+	padding-right: 0;
+}
+
+.products img{
+	margin-bottom: 10px;
+}
+
+.products h4{
+	margin-bottom: 10px;
+	color: #e2006b;
+}
+
+.products p{
+	margin-bottom: 9px;
+	color: #2e2e2e;
+}
+
+.products a{
+	display: inline-block;
+	padding: 5px;
+	background-color: #e2006b;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.products a:hover{
+	color: #000000;
+}
+/* END CONTENT */
+
+/* MAIN */
+main{
+	overflow: hidden;
+}
+/* END MAIN */
+
+/* FOOTER */
+footer{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 25px 10px 24px 10px;
+}
+/* END FOOTER */
