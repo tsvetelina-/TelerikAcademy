@@ -1,0 +1,48 @@
+.container{
+	width: 915px;
+	height: 80px;
+	background-color: #181818;
+	border-radius: 10px;
+	font-family: Arial;
+}
+
+img{
+	padding: 25px 10px 20px 10px;
+	float: left;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	float: left;
+	width: 209px;
+	height: 75px;
+	margin-right: 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dfe2e4+0,7b786d+100 */
+	background: #dfe2e4; /* Old browsers */
+	background: -moz-linear-gradient(top, #dfe2e4 0%, #7b786d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #dfe2e4 0%,#7b786d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #dfe2e4 0%,#7b786d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe2e4', endColorstr='#7b786d',GradientType=0 ); /* IE6-9 */
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+span{
+	font-size: 12px;
+	display: block;
+	color: #5d5d5d;
+	font-size: 12px;
+	margin-top: 5px;
+}

@@ -1,0 +1,176 @@
+.container{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.firstNav{
+	width: 700px;
+	height: 82px;
+	background-color: #7d7d7d;
+	border-radius: 10px;
+	box-shadow: 0px 5px 0px 0px #959595;
+}
+
+.firstNav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+.firstNav li{
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 10px;
+}
+.firstNav ul{
+	position: relative;
+	left: 80px;
+}
+
+li{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.firstNav li a:hover{
+	position: relative;
+	top: -2px;
+	padding: 39px 17px 34px 12px;
+}
+
+.firstNav li:hover{
+	position: relative;
+	top: -3px;
+}
+
+.firstNav a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+.firstNav .home{
+	padding: 38px 17px 33px 12px;
+}
+
+.firstNav .about{
+	padding: 38px 9px 33px 5px;
+}
+
+.firstNav .services{
+	padding: 38px 4px 33px 3px;
+}
+
+.firstNav .work{
+	padding: 38px 15px 33px 13px;
+}
+
+.firstNav .clients{
+	padding: 38px 10px 33px 7px;
+}
+
+.firstNav .contact{
+	padding: 38px 6px 33px 10px;
+}
+
+/*********************************/ hover
+
+.firstNav .home:hover{
+	padding: 39px 17px 34px 12px;
+}
+
+.firstNav .about:hover{
+	padding: 39px 9px 34px 5px;
+}
+
+.firstNav .services:hover{
+padding: 39px 4px 34px 3px;
+}
+
+.firstNav .work:hover{
+	padding: 39px 15px 34px 13px;
+}
+
+.firstNav .clients:hover{
+	padding: 39px 10px 34px 7px;
+}
+
+.firstNav .contact:hover{
+	padding: 39px 6px 34px 10px;
+}
+
+.secondNav ul{
+	list-style-type: none;
+	padding-left: 200px;
+}
+
+.secondNav li{
+	display: inline;
+	text-decoration: none;
+	padding: 0px;
+	padding-left: 15px;
+}
+
+.container .firstNav li:hover{
+	
+	/*background-color: #d85121; !important;/*
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#df5721+0,bf3f23+100 */
+	background: #df5721; /* Old browsers */
+	background: -moz-linear-gradient(top, #df5721 0%, #bf3f23 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #df5721 0%,#bf3f23 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #df5721 0%,#bf3f23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df5721', endColorstr='#bf3f23',GradientType=0 ); /* IE6-9 */
+
+}
+
+.container .home{
+
+	position: relative;
+	top: -2px;
+	
+	/*background-color: #d85121; !important;/*
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#df5721+0,bf3f23+100 */
+	background: #df5721; /* Old browsers */
+	background: -moz-linear-gradient(top, #df5721 0%, #bf3f23 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #df5721 0%,#bf3f23 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #df5721 0%,#bf3f23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df5721', endColorstr='#bf3f23',GradientType=0 ); /* IE6-9 */
+
+}
+
+.secondNav{
+	width: 465px;
+	height: 30px;
+	border: 1px solid #c2c2c2;
+	position: relative;
+	left: 233px;
+	top: 5px;
+	background-color: #c2c2c2;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 5px 0px 0px #959595;
+	font-size: 12px;
+}
+
+.secondNav a{
+	text-decoration: none;
+	color: #6f6d6d;
+	padding: 3px;
+}
+
+.secondNav li a:hover{
+	background-color: #ebebeb;
+	border-radius: 5px;
+}
+
+/*ul div{
+	display: inline;
+	height: 85px;
+	width: 66px;
+	background-color: 
+}

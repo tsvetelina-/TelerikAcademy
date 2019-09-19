@@ -1,0 +1,322 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+/* END GLOBAL */
+
+.container{
+	font-family: Arial;
+	width: 534px;
+	margin: 0 auto;
+	/*height: 515px;*/
+	background-color: #cce792;
+	font-size: 14px;
+	font-weight: bold;
+	color: #546e1f;
+
+	border: 5px solid white;
+	outline: 2px solid lightgrey;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.register{
+	position: relative;
+	left: -40px;
+	width: 134px;
+	background-color: #ffa800;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	/*border-left: 10px solid #ffa800;*/
+}
+
+.register:after {
+	content: "";
+	position: absolute;
+	right: -20px;
+	top: -13px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 20px solid #ffa800;
+	border-bottom: 23px solid transparent;
+}
+
+.name-1{
+	position: relative;
+	/*l eft: -15px;*/
+	width: 130px;
+	background-color: #84a63d;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	z-index: 999;
+}
+
+.name-1:after{
+	content: "";
+	position: absolute;
+	right: -20px;
+	top: -13px;
+	width: 0;
+	height: 0;
+	border-top: 22px solid transparent;
+	border-left: 20px solid #84a63d;
+	border-bottom: 22px solid transparent;
+}
+
+.name-2{
+	position: relative;
+	/*left: -5px;*/
+	right: 5px;
+	width: 181px;
+	background-color: #9bbd53;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	/*border-left: 10px solid #ffa800;*/
+	padding-left: 40px;
+}
+
+.header ul{
+	background-color: #9bbd53;
+}
+
+ul li{
+	display: inline-block;
+}
+
+.two-li-tags{
+	background-color: #84a63d;
+	width: 269px;
+	display: inline-block;
+}
+
+section{
+	padding-left: 5px;
+}
+
+/*hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid white;
+	margin: 1em 0;
+	padding: 0;
+	margin-bottom: 15px;
+}*/
+
+label{
+	width: 152px;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+	margin-top: 15px;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+input[name="full-name"],
+input[name="email"],
+input[name="username"],
+input[name="password"],
+input[name="re-type-password"]
+{
+	position: relative;
+	top: -15px;
+}
+
+input[type="text"]{
+	width: 285px;
+	height: 28px;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+
+.under-header{
+	position: relative;
+	top: -13px;
+	font-size: 2px;
+}
+
+.back{
+	position: relative;
+	width: 100px;
+	background-color: #73962a;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.back::before {
+	content: "";
+	position: absolute;
+	right: -20px;
+	to p: -13px;
+	left: -14px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 14px 11px 0;
+	border-color: transparent #73962a transparent transparent;
+}
+
+input[type="submit"]{
+	background-color: #73962a;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+header{
+	background-color: #9bbd53;
+	height: 47px;
+	position: relative;
+	top: -13px;
+}
+
+.step-2{
+	position: relative;
+	width: 100px;
+	background-color: #73962a;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.step-2:after{
+	content: "";
+	position: absolute;
+	right: -20px;
+	left: 100px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 14px solid #73962a;
+	border-bottom: 11px solid transparent;
+}
+
+form{
+	position: relative;
+	top: -13px;
+	font-size: 12px;
+}
+
+h3{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+span{
+	background-color: white;
+	color: darkgrey;
+	border-radius: 50%;
+	padding: 5px 10px 5px 10px;
+
+	-moz-box-shadow:    inset 1px 1px 5px #000000;
+	-webkit-box-shadow: inset 1px 1px 5px #000000;
+	box-shadow:         inset 1px 1px 4px #000000;
+
+	margin-left: 1px;
+}
+
+.one{
+	margin-left: 5px;
+	position: relative;
+}
+
+.one:after{
+	content:'';
+	width: 100%;
+	height: 1px;
+	background:#ffffff;
+	position: absolute;
+	bottom: -1px;
+	left:0;
+}
+
+.two{
+	margin-left: -20px;
+}
+
+.two:after{
+	content:'';
+	width: 23%;
+	height: 1px;
+	background:#ffffff;
+	position: absolute;
+	bottom: -1px;
+	left: -20px;
+	top: 25px;
+}
+
+.three{
+	margin-left: -10px;
+	position: relative;
+}
+
+.three:after{
+	content:'';
+	width: 100%;
+	height: 1px;
+	background:#ffffff;
+	position: absolute;
+	bottom: -1px;
+	left:0;
+}
+
+.header{
+	margin-left: 40px;
+	height: 58px;
+}
+
+.personal-info,
+.account-info{
+	padding-left: 5px;
+}
+
+.personal-info{
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+	margin-top: 30px;
+}
+
+.account-info{
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+.header-div{
+	border-bottom: 1px solid white;
+	height: 48px;
+}

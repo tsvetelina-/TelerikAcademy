@@ -1,0 +1,71 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+/*END GLOBAL */
+
+table th, td{
+	border: 1px solid white;
+}
+
+table{
+	border-collapse: collapse;
+	text-align: center;
+	width: 790px;
+	height: 417px;
+	font-family: Arial;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+table th{
+	font-size: 14px;
+	height: 37px;
+	color: white;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a2a2a2+0,252525+100 */
+	background: #a2a2a2; /* Old browsers */
+	background: -moz-linear-gradient(top, #a2a2a2 0%, #252525 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a2a2a2 0%,#252525 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a2a2a2 0%,#252525 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2a2a2', endColorstr='#252525',GradientType=0 ); /* IE6-9 */
+}
+
+a{
+	color: black;
+}
+
+.underline{
+	text-decoration: underline;
+	width: 129px;
+}
+
+tr:nth-child(odd){
+	background-color: #f0f0f0;
+}
+
+table th:first-child{
+	border-top-left-radius: 10px;
+}
+
+table th:last-child{
+	border-top-right-radius: 10px;
+}
+
+table tbody tr:last-child{
+	border-bottom: 2px solid #e8e8e8;
+}
+
+table tbody td:first-child{
+	border-left: 1px solid #e8e8e8;
+}
+
+table td:last-child{
+	border: 1px solid #e8e8e8;
+}
+
+table td:last-child{
+	border: 1px solid #e8e8e8;
+}
