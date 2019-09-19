@@ -1,0 +1,188 @@
+<!-- <div class="col-md-12"> -->
+								<div class="carousel slide multi-item-carousel" id="theCarousel">
+									<div class="carousel-inner">
+										<div class="item active">
+											<div class="col-sm-3">
+												<a href="#1">
+													<img src="images/image-slider1.png" alt="product1">
+												</a>
+												<img class="stars" src="images/stars.png" alt="stars">
+												<p>Arcu vitae imperdiet simply</p>
+												<p class="price">$235.00</p>
+											</div>
+										</div>
+										<div class="item">
+											<div class="col-sm-3">
+												<a href="#1">
+													<img src="images/image-slider2.png" alt="product2">
+												</a>
+												<img class="stars" src="images/stars.png" alt="stars">
+												<p>Arcu vitae imperdiet simply</p>
+												<p class="price">$235.00</p>
+											</div>
+										</div>
+										<div class="item">
+											<div class="col-sm-3">
+												<a href="#1">
+													<img src="images/image-slider3.png" alt="product3">
+												</a>
+												<img class="stars" src="images/stars.png" alt="stars">
+												<p>Arcu vitae imperdiet simply</p>
+												<p class="price">$235.00</p>
+											</div>
+										</div>
+										<div class="item">
+											<div class="col-sm-3">
+												<a href="#1">
+													<img src="images/image-slider4.png" alt="product4">
+												</a>
+												<img class="stars" src="images/stars.png" alt="stars">
+												<p>Arcu vitae imperdiet simply</p>
+												<p class="price">$235.00</p>
+											</div>
+										</div>
+									</div>
+									<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+									<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+								</div>
+								<!-- </div> -->
+
+
+
+	changed the image slider with owl carousel
+	corrected the footer
+	changed fonts 
+
+
+	TODO
+
+
+
+
+	----------------------
+
+	@media (max-width: 767px):
+
+		/*.section-main-banner h1 {
+		font-size: 40px;
+		margin-top: 100px;
+		margin-bottom: 34px;
+	}
+
+	.section-main-banner .black-button {
+		margin-bottom: 93px;
+		font-size: 16.16px;
+	}
+
+	.section-main-banner p {
+		font-size: 16.15px;
+		margin-bottom: 34px;
+	}*/
+
+
+
+-----------------
+
+
+-added box and box inner and added white border inside the images in the second section and made it responsive
+- changed the font size on differect screen sizes
+
+
+TODO:
+offset columns - correct
+
+
+
+
+
+---------------------------------------------------------------
+<div class="footer-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3 first-column">
+							<a class="footer-logo" href="#">
+								<img src="images/logo.png" alt="logo">
+							</a>
+							<p>507-Union Trade Center,Udhana Darvaja Surat</p>
+							<p>Call us: 0123-456-789</p>
+							<p>support@templatemela.com</p>
+
+							<div class="footer-social-media-icons">
+								<a href="#">
+									<img src="images/footer-social-media1.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media2.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media3.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media4.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media5.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media6.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media7.png" alt="social-media-icon">
+								</a>
+								<a href="#">
+									<img src="images/footer-social-media8.png" alt="social-media-icon">
+								</a>
+							</div>
+							<!-- .footer-social-media-icons -->
+						</div>
+						<!-- .col-sm-3 -->
+
+						<div class="col-sm-3 footer-column">
+							<h3>MY ACCOUNT</h3>
+
+							<ul>
+								<li><a href="#">Ask In forum</a></li>
+								<li><a href="#">Help Desk</a></li>
+								<li><a href="#">Payment Method</a></li>
+								<li><a href="#">Promotions</a></li>
+								<li><a href="#">Terms & Condition</a></li>
+								<li><a href="#">Payment Method</a></li>
+								<li><a href="#">Shipping Policy</a></li>
+							</ul>
+						</div>
+						<!-- .col-sm-3 -->
+
+						<div class="col-sm-3 footer-column">
+							<h3>SHOP</h3>
+
+							<ul>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Balcony Tables</a></li>
+								<li><a href="#">Bar Units</a></li>
+								<li><a href="#">Fine Art</a></li>
+								<li><a href="#">Beds</a></li>
+								<li><a href="#">Rules</a></li>
+							</ul>
+						</div>
+						<!-- .col-sm-3 -->
+
+						<div class="col-sm-3 footer-column">
+							<h3>SELLERS</h3>
+
+							<ul>
+								<li><a href="#">Seller Login</a></li>
+								<li><a href="#">Seller Signup</a></li>
+								<li><a href="#">Seller Handbook</a></li>
+								<li><a href="#">Shipping & Refund</a></li>
+								<li><a href="#">Wholesale Policy</a></li>
+							</ul>
+						</div>
+						<!-- .col-sm-3 -->
+					</div>
+					<!-- .row -->
+
+					<img src="images/footer-decoration.png" alt="footer-decoration">
+				</div>
+				<!-- .container -->
+			</div>
+			<!-- .footer-content -->

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avenue</title>
+
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" /> <!-- removes the blue styling of telephone numbers on iPhone/iOS -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800,900|Roboto:300,400,500,700,900" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="top-bar">
+			<div class="container">
+				<select name="currency" id="currency">
+					<option value="GBP">Currency GBP</option>
+					<option value="US">US</option>
+					<option value="GBN">BGN</option>
+				</select>
+
+				<div class="top-bar-right">
+					<ul>
+						<li><a href="#">Register</a></li>
+						<li><a href="#">Sign In</a></li>
+					</ul>
+
+					<img class="cart" src="images/cart.png" alt="cart">
+
+					<select name="cart" id="cart" >
+						<option value="empty">empty</option>
+					</select>
+				</div>
+				<!-- .top-bar-right -->
+			</div>
+			<!-- .container -->
+		</div>
+		<!-- .top-bar -->
+	</div>
+	<!-- .wrapper -->
+
+	<script type="text/javascript" src="js/jquery.1.12.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

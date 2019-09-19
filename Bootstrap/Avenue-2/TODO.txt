@@ -1,0 +1,543 @@
+How to create transparent background of favicon?
+-crop an image you want to use for your favicon, make its background transparent and convert it to .ico file, then add it to website
+
+
+--------------
+added:
+-favicon
+-top-bar
+
+
+
+-----------
+previous nav:
+<nav class="my-navbar navbar">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							
+							<a class="navbar-brand" href="#">
+								<img src="images/logo.png" alt="logo">
+							</a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="#">MENS</a></li>
+								<li><a href="#">WOMENS</a></li>
+								<li><a href="#">THE BRAND</a></li>
+								<li><a href="#">LOCAL STORES</a></li>
+								<li><a href="#">LOOK BOOK</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container -->
+				</nav>
+
+
+
+
+				----------------------------------------------------
+
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6">
+								small pic
+							</div>
+							<!-- .col-md-6 -->
+							
+							<div class="col-md-6">
+								small pic
+							</div>
+							<!-- .col-md-6 -->
+						</div>
+						<!-- .inner-row -->
+						<div>
+							big pic
+						</div>
+					</div>
+					<!-- .col-md-6 -->
+
+					<div>
+						big pic
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							small pic
+						</div>
+						<!-- .col-md-6 -->
+
+						<div class="col-md-6">
+							small pic
+						</div>
+						<!-- .col-md-6 -->
+					</div>
+					<!-- .inner-row -->
+				</div>
+				<!-- .row -->
+
+
+TODO:
+nav-tab - > add content
+
+
+
+
+
+
+
+<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="product">
+										<p class="price"><sup>£</sup>89.99</p>
+										<img class="small-img" src="images/item1.png" alt="item1">
+									</div>
+									<!-- .product -->
+								</div>
+								<!-- .col-md-6 -->
+								<div class="col-md-6">
+									<div class="product">
+										<p class="price"><sup>£</sup>47.50</p>
+										<img class="small-img" src="images/item2.png" alt="item2">
+									</div>
+									<!-- .product -->
+								</div>
+								<!-- .col-md-6 -->
+							</div>
+							<!-- .row -->
+							<div>
+								<div class="product">
+									<p class="price"><sup>£</sup>69.95</p>
+									<img src="images/item4.png" alt="item4">
+								</div>
+								<!-- .product -->
+							</div>
+						</div>
+						<!-- .col-md-6 -->
+
+						<div class="col-md-6">
+							<div class="product">
+								<p class="price"><span class="line-through"><sup>£</sup>107</span><sup>£</sup>89.99</p>
+								<img src="images/item3.png" alt="item3">
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="product image-with-overlay">
+										<p class="price"><sup>£</sup>29.95</p>
+										<img class="product-image small-img" src="images/item5.png" alt="item5">
+										<div class="overlay">
+											<img class="info" src="images/overlay.png" alt="overlay">
+											<img class="front-image" src="images/thumb-front.png" alt="front-image">
+											<img class="back-image" src="images/thumb-back.png" alt="back-image">
+										</div>
+										<!-- .overlay -->
+										<div class="product-info">
+											<h3>Womens burnt orange casual tee  <sup>£</sup>29.95</h3>
+											<p>Classic casual t-shirt for women on the move. 100% cotton.</p>
+											<a class="bottom-buttons" href="#">
+												<img src="images/cart.png" alt="cart">
+											</a>
+
+											<a class="bottom-buttons" href="#">
+												<img src="images/hover-whishlist.png" alt="add-to-whishlist">
+											</a>
+
+											<a class="bottom-buttons" href="#">
+												<img src="images/hover-arrows.png" alt="arrows">
+											</a>
+										</div>
+										<!-- .product-info -->
+									</div>
+									<!-- .product image-with-overlay -->
+								</div>
+								<!-- col-md-6 -->
+
+								<div class="col-md-6">
+									<!-- <div class="product">
+										<p class="price"><sup>£</sup>34.79</p>
+										<img class="small-img" src="images/item6.png" alt="item6">
+									</div> -->
+
+									<div class="product image-with-overlay">
+										<p class="price"><sup>£</sup>34.79</p>
+										<img class="product-image small-img" src="images/item6.png" alt="item6">
+										<div class="overlay">
+											<img class="info" src="images/overlay.png" alt="overlay">
+											<img class="front-image" src="images/thumb-front.png" alt="front-image">
+											<img class="back-image" src="images/thumb-back.png" alt="back-image">
+										</div>
+										<!-- .overlay -->
+										<div class="product-info">
+											<h3>Womens burnt orange casual tee  <sup>£</sup>29.95</h3>
+											<p>Classic casual t-shirt for women on the move. 100% cotton.</p>
+											<a class="bottom-buttons" href="#">
+												<img src="images/cart.png" alt="cart">
+											</a>
+
+											<a class="bottom-buttons" href="#">
+												<img src="images/hover-whishlist.png" alt="add-to-whishlist">
+											</a>
+
+											<a class="bottom-buttons" href="#">
+												<img src="images/hover-arrows.png" alt="arrows">
+											</a>
+										</div>
+										<!-- .product-info -->
+									</div>
+									<!-- .product image-with-overlay -->
+								</div>
+								<!-- col-md-6 -->
+							</div>
+							<!-- .row -->
+						</div>
+					</div>
+					<!-- .row -->
+
+
+
+
+
+
+
+
+
+
+					---------------
+
+---------header------
+
+<div class="container big">
+				<a class="logo" href="#">
+					<img src="images/logo.png" alt="logo">
+				</a>
+
+
+				<nav class="my-nav navbar navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">MENS</a>
+								<ul class="dropdown-menu multi-column columns-2">
+									<div class="row">
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">CASUALS</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Hoodies & Sweatshirts</a></li>
+												<li><a href="#">Polo Shirts</a></li>
+												<li><a href="#">Sportswear</a></li>
+												<li><a href="#">Trousers & Chinos</a></li>
+												<li><a href="#">T-Shirts</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">FORMAL</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Shirts</a></li>
+												<li><a href="#">Suits</a></li>
+												<li><a href="#">Trousers</a></li>
+											</ul>
+										</div>
+
+										<!-- <div class="banner"> -->
+										<img src="images/banner.png" alt="banner">
+										<!-- </div> -->
+									</div>
+								</ul>
+							</li>
+						</ul>
+
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">WOMENS</a>
+								<ul class="dropdown-menu multi-column columns-2">
+									<div class="row">
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">CASUALS</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Hoodies & Sweatshirts</a></li>
+												<li><a href="#">Polo Shirts</a></li>
+												<li><a href="#">Sportswear</a></li>
+												<li><a href="#">Trousers & Chinos</a></li>
+												<li><a href="#">T-Shirts</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">FORMAL</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Shirts</a></li>
+												<li><a href="#">Suits</a></li>
+												<li><a href="#">Trousers</a></li>
+											</ul>
+										</div>
+
+										<div class="banner">
+											<img src="images/banner.png" alt="banner">
+										</div>
+									</div>
+								</ul>
+							</li>
+
+							<li class="the-brand"><a href="#">THE BRAND</a></li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">LOCAL STORES</a>
+								<ul class="dropdown-menu multi-column columns-2">
+									<div class="row">
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">CASUALS</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Hoodies & Sweatshirts</a></li>
+												<li><a href="#">Polo Shirts</a></li>
+												<li><a href="#">Sportswear</a></li>
+												<li><a href="#">Trousers & Chinos</a></li>
+												<li><a href="#">T-Shirts</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">FORMAL</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Shirts</a></li>
+												<li><a href="#">Suits</a></li>
+												<li><a href="#">Trousers</a></li>
+											</ul>
+										</div>
+
+										<div class="banner">
+											<img src="images/banner.png" alt="banner">
+										</div>
+									</div>
+								</ul>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">LOOK BOOK</a>
+								<ul class="dropdown-menu multi-column columns-2">
+									<div class="row">
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">CASUALS</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Hoodies & Sweatshirts</a></li>
+												<li><a href="#">Polo Shirts</a></li>
+												<li><a href="#">Sportswear</a></li>
+												<li><a href="#">Trousers & Chinos</a></li>
+												<li><a href="#">T-Shirts</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-6">
+											<ul class="multi-column-dropdown">
+												<li><a href="#">FORMAL</a></li>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Shirts</a></li>
+												<li><a href="#">Suits</a></li>
+												<li><a href="#">Trousers</a></li>
+											</ul>
+										</div>
+
+										<div class="banner">
+											<img src="images/banner.png" alt="banner">
+										</div>
+									</div>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container big -->
+			</nav>
+
+
+
+
+-------------------------------------
+
+
+
+
+structure of html:
+
+<div class="wrapper">
+	<header>
+		<div class="top-header">
+			<div class="container">
+				
+			</div>
+		</div>
+		<div class="bot-header">
+			<div class="container big">
+				<a href="" class="logo"></a>
+				<form action="#"></form>
+				<nav>
+					<ul>
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container-fluid">
+			
+		</div>
+	</main>
+</div>
+
+					
+
+----------------------------------
+
+					<div class="wrapper">
+	<header>
+		<div class="top-header">
+			<div class="container">
+				
+			</div>
+		</div>
+		<div class="bot-header">
+			<div class="container big">
+				<a href="" class="logo"></a>
+				<form action="#"></form>
+				<nav>
+					<ul>
+						
+					</ul>
+				</nav>
+			</div>
+			<!-- .container-big -->
+		</div>
+		<!-- .bot-header -->
+	</header>
+	<main>
+		<div class="container-fluid">
+			
+		</div>
+	</main>
+</div>
+
+
+
+-----------------------------------------------
+The brand second page:
+
+<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				
+			</div>
+			<!-- .col-md-6 -->
+
+			<div class="col-md-6">
+				
+			</div>
+			<!-- .col-md-6 -->
+		</div>
+		<!-- .row -->
+	</div>
+	<!-- .container -->
+
+
+
+
+
+	---------------------------------------------------------
+
+	<div class="col-sm-6 left-column">
+							<img class="article-img" src="images/brand-img1.png" alt="hand-designed-clothing">
+
+							<img class="article-img" src="images/brand-img2.png" alt="values-vision-strategy">
+
+							<h3>OUR VALUES, VISION AND STRATEGY</h3>
+							<h4>THE ABOVE IMAGE WOULD BE A GREAT PLACE FOR AN ADVERTISING VIDEO</h4>
+
+							<p>
+								Cras maximus venenatis malesuada. Nulla sagittis elit felis, ac facilisis quam ornare aliquam. Etiam cursus odio vitae dui dignissim, sed tempus lacus tincidunt et donec sapien velit, rhoncus eu nulla a, molestie tempus mi maecenas sagittis ornare.
+								Pellentesque sapien mi, <a href="#">tincidunt nec magna vitae</a>, volutpat elementum odioni lorem Aliquam tempor massa vitae augue mattis tempor id in ante ut augue erat, luctus eil.
+							</p>
+						</div>
+						<!-- .col-sm-6 left-column -->
+
+						<div class="col-sm-6 right-column">
+
+							<h3>HAND DESIGNED CLOTHING</h3>
+
+							<h4>ESTABLISHED IN 2013, AVENUE FASHION SED DICTUM ELIT VEL SAPIEN LUCTUS ERAS</h4>
+
+							<p>
+								Praesent feugiat malesuada tristique maecenas rhoncus diam eget quam vestibulim consectetur, id condimentum leo porttitor. Cum sociis natoque penatibus eta magnis disut parturient montes, nascetur ridiculus mus. Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.
+							</p>
+
+							<img class="article-img" src="images/brand-img3.png" alt="ethical-trading">
+
+							<h3>ETHICAL TRADING</h3>
+
+							<h4>WE OVERSEE THE WORKING CONDITIONS OF THE PEOPLE IN THE SUPPLY CHAIN</h4>
+
+							<p>
+								Nullam dapibus consectetur neque, faucibus porttitor purus iaculis sed. Aenean eras dapibus augue, eget dignissim dui maecenas et rhoncus mim, vel semper arcu lorem
+								Pellentesque congue justo esteir pellentesque aliquet massa eget posuere tincidunt. Cras viverra ullamcorper nunc accumsan hendrerit. <a href="#">A link <img class="arrow" src="images/arrow-right.png" alt="arrow-right"></a> 
+							</p>
+
+							<div class="awards">
+								<img src="images/awards1.png" alt="award">
+								<img src="images/awards2.png" alt="award">
+								<img src="images/awards3.png" alt="award">
+							</div>
+							<!-- .awards -->
+						</div>
+						<!-- .col-sm-6 right-column -->
+					</div>
+					<!-- .row -->
+
+
+
+
+					------------------
+about map:
+
+					.location-details .tab-content.cities{
+								float:none;
+							}
+							.location-details .tab-content iframe{
+								height:550px;
+							}
+
+-------------------
+
+
+
+					div -> input type text -> the first arrow is before and the second is after
+					input type inside div and after and before to the div
+
+
+todo:
+change background-color of checkbox
+
+
+
