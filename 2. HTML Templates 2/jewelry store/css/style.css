@@ -1,0 +1,358 @@
+/* GLOBAL */
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+body{
+	font-family: Georgia;
+	
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#04264c+0,4b6f93+100 */
+	background: #04264c; /* Old browsers */
+	background: -moz-linear-gradient(top, #04264c 0%, #4b6f93 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #04264c 0%,#4b6f93 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #04264c 0%,#4b6f93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04264c', endColorstr='#4b6f93',GradientType=0 ); /* IE6-9 */
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+/* HEADER */
+header{
+	background: url('../img/header-background.png')no-repeat;
+	background-size: 960px 117px;
+	font-size: 13px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.logo{
+	display: inline-block;
+	margin: 42px 0px 20px 0px;
+	float: left;
+	border-bottom: 1px solid #fff;
+}
+
+.right-header{
+	float: right;
+}
+
+.right-header ul{
+	margin: 15px 0px 8px 10px;
+}
+
+.right-header li{
+	float: left;
+}
+
+.right-header li+li::before{
+	padding: 0 5px;
+	content: "|";
+	color: #ffffff;
+}
+
+.right-header a{
+	color: #ffffff;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+.right-header ul li a:hover{
+	text-decoration: underline;
+}
+
+form{
+	float: right;
+	margin: 0px 0px 48px 5px;
+}
+
+input[type="text"]{
+	padding: 4px 6px;
+	border: 1px solid #C3CFDB;
+}
+
+input::placeholder{
+	color: #bdbdbd;
+}
+
+input[type="submit"]{
+	color: #5a5a5a;
+	border: 1px solid #A6B4C0;
+	cursor: pointer;
+	padding: 4px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9f0f4+0,caced3+100 */
+	background: #e9f0f4; /* Old browsers */
+	background: -moz-linear-gradient(top, #e9f0f4 0%, #caced3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e9f0f4 0%,#caced3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e9f0f4 0%,#caced3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f0f4', endColorstr='#caced3',GradientType=0 ); /* IE6-9 */
+}
+/* END HEADER */
+
+/* NAVIGATION */
+nav{
+	border: 1px solid #ACC4E0;
+	margin: 0 5px 8px 5px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ecedee+0,fcfcfc+34,f8f9f9+38,c8ccd0+100 */
+	background: #ecedee; /* Old browsers */
+	background: -moz-linear-gradient(top, #ecedee 0%, #fcfcfc 34%, #f8f9f9 38%, #c8ccd0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ecedee 0%,#fcfcfc 34%,#f8f9f9 38%,#c8ccd0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ecedee 0%,#fcfcfc 34%,#f8f9f9 38%,#c8ccd0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecedee', endColorstr='#c8ccd0',GradientType=0 ); /* IE6-9 */
+}
+
+nav li{
+	float: left;
+	padding: 8px 22px 8px 20px;
+	border-right: 1px solid #DADCDE;
+}
+
+nav li:last-child{
+	border-right: none;
+}
+
+nav a{
+	font-size: 15px;
+	color: #03254b;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+/* END NAVIGATION */
+
+/* ASIDE */
+aside{
+	width: 203px;
+	margin-left: 7px;
+	float: left;
+}
+
+
+.box{
+	padding: 3px;
+	margin-bottom: 11px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfd8de+0,ebeff3+100 */
+	background: #cfd8de; /* Old browsers */
+	background: -moz-linear-gradient(top, #cfd8de 0%, #ebeff3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cfd8de 0%,#ebeff3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cfd8de 0%,#ebeff3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfd8de', endColorstr='#ebeff3',GradientType=0 ); /* IE6-9 */
+}
+
+.box-inner{
+	border: 2px solid #fff;
+}
+
+.box h3{
+	color: #03254b;
+	text-transform: uppercase;
+	padding: 10px 10px 0px 10px;
+	font-size: 14px;
+}
+
+.box ul{
+	padding: 10px 10px 10px 15px;
+}
+
+.box li{
+	padding: 6px 0;
+}
+
+.box a{
+	color: #6183a6;
+	font-size: 14px;
+}
+
+.featured-products{
+	text-align: center;
+	font-size: 13px;
+}
+
+.featured-products h3{
+	padding: 10px 10px 15px 10px;
+	text-align: left;
+}
+
+.featured-products h4{
+	color: #03254b;
+	margin-bottom: 14px;
+}
+
+.featured-products img{
+	margin-bottom: 7px;
+}
+
+.featured-products p{
+	color: #aa0000;
+	margin-bottom: 10px;
+}
+
+.featured-products .details{
+	margin-bottom: 20px;
+}
+
+.featured-products .details a{
+	color: #03254b;
+	font-size: 14px;
+	display: inline-block;
+	padding: 8px 10px 7px 12px;
+	border: 1px solid #A6B4C0;
+
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ecedee+0,fcfcfc+34,f8f9f9+38,c8ccd0+100 */
+	background: #ecedee; /* Old browsers */
+	background: -moz-linear-gradient(top, #ecedee 0%, #fcfcfc 34%, #f8f9f9 38%, #c8ccd0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ecedee 0%,#fcfcfc 34%,#f8f9f9 38%,#c8ccd0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ecedee 0%,#fcfcfc 34%,#f8f9f9 38%,#c8ccd0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecedee', endColorstr='#c8ccd0',GradientType=0 ); /* IE6-9 */
+}
+
+.featured-products a.view-all{
+	color: #03254b;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+.featured-products a.view-all{
+	display: inline-block;
+	margin-bottom: 13px;
+}
+
+.featured-products a.view-all:hover{
+	text-decoration: underline;
+}
+/* END ASIDE */
+
+/* BREADCRUMB */
+ul.breadcrumb{
+	padding-top: 5px;
+}
+
+ul.breadcrumb li{
+	display: inline;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+ul.breadcrumb li+li:before{
+	padding: 5px;
+	color: #03254b;
+	content: ">";
+}
+
+ul.breadcrumb li a{
+	color: #03254b;
+	font-family: Arial;
+}
+
+ul.breadcrumb li a:hover{
+	text-decoration: underline;
+}
+/* END BREADCRUMB */
+
+/* SPAN */
+span{
+	font-size: 13px;
+	color: #858585;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+/* END SPAN */
+
+/* CONTENT */
+.content{
+	float: left;
+	width: 740px;
+	margin-left: 10px;
+}
+
+.content .products li{
+	width: 168px;
+	text-align: center;
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 43px;
+}
+
+.content .products li:nth-child(4n+4){
+	padding-right: 0px;
+}
+
+.content img{
+	margin-bottom: 7px;
+}
+
+.content h4{
+	color: #03254b;
+	font-size: 13px;
+	margin-bottom: 9px;
+	line-height: 20px;
+}
+
+.content p{
+	color: #aa0000;
+	margin-bottom: 12px;
+}
+
+.content .products a{
+	color: #03254b;
+	font-size: 14px;
+	padding: 7px 7px 8px 6px;
+	display: inline-block;
+	border: 1px solid #A6B4C0;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ecedee+0,fcfcfc+34,f8f9f9+38,c8ccd0+100 */
+	background: #ecedee; /* Old browsers */
+	background: -moz-linear-gradient(top, #ecedee 0%, #fcfcfc 34%, #f8f9f9 38%, #c8ccd0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ecedee 0%,#fcfcfc 34%,#f8f9f9 38%,#c8ccd0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ecedee 0%,#fcfcfc 34%,#f8f9f9 38%,#c8ccd0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecedee', endColorstr='#c8ccd0',GradientType=0 ); /* IE6-9 */
+}
+
+.content .products a:hover{
+	color: #010000;
+}
+/* END CONTENT */
+
+/* CONTAINER */
+.container{
+	background-color: #fff;
+	padding-top: 5px;
+}
+/* END CONTAINER */
+
+/* MAIN */
+main{
+	overflow: hidden;
+}
+/* END MAIN */
+
+/* FOOTER */
+footer{
+	font-size: 12px;
+	color: #5f5f5f;
+	padding: 24px 10px 23px 10px;
+	text-align: center;
+	border-top: 1px solid #959595;
+	margin: 0 19px;
+}
+/* END FOOTER */
